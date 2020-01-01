@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace park_classes
 {
@@ -6,7 +7,7 @@ namespace park_classes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
         }
     }
 }
