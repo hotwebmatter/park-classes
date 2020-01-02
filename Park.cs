@@ -22,5 +22,16 @@ namespace park_classes
         public double AnnualBudget { set; get; }
         public int NumberOfEmployees { set; get; }
         public int VisitorsLastYear { set; get; }
+        // constructors
+        public Park()
+        {
+            name = "Grand Canyon";
+            location = "Arizona";
+            facilityType = "National Park";
+            feePerVisitor = 15;
+            annualBudget = 21324300;
+            numberOfEmployees = 382;
+            visitorsLastYear = 6380000;
+        }
     }
 }
