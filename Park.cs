@@ -14,5 +14,13 @@ namespace park_classes
                        annualBudget;
         private int numberOfEmployees,
                     visitorsLastYear;
+        // properties
+        public string Name { set; get; }
+        public string Location { set; get; }
+        public string FacilityType { set; get; }
+        public double FeePerVisitor { set; get; }
+        public double AnnualBudget { set; get; }
+        public int NumberOfEmployees { set; get; }
+        public int VisitorsLastYear { set; get; }
     }
 }
