@@ -62,5 +62,9 @@ namespace park_classes
             result += String.Format("{0, 16} {1, 24}\n", "Facilities:", facilities);
             return result;
         }
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }
