@@ -64,7 +64,17 @@ namespace park_classes
         }
         public override string ToString()
         {
-            return base.ToString();
+            string result = String.Format("*********************************************\n");
+            result += String.Format("* {0, 16} {1, 24} *\n", "Park Name:", name);
+            result += String.Format("* {0, 16} {1, 24} *\n", "Park Location:", location);
+            result += String.Format("* {0, 16} {1, 24} *\n", "Park Type:", type);
+            result += String.Format("* {0, 16} {1, 24} *\n", "Facilities:", facilities);
+            result += String.Format("* {0, 16} {1, 24} *\n", "Fee Per Visitor:", feePerVisitor);
+            result += String.Format("* {0, 16} {1, 24} *\n", "Budget:", annualBudget);
+            result += String.Format("* {0, 16} {1, 24} *\n", "Employees:", numberOfEmployees);
+            result += String.Format("* {0, 16} {1, 24} *\n", "Visitors:", visitorsLastYear);
+            result += String.Format("*********************************************\n");
+            return result;
         }
     }
 }
