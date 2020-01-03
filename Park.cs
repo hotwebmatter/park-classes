@@ -33,5 +33,15 @@ namespace park_classes
             numberOfEmployees = 382;
             visitorsLastYear = 6380000;
         }
+        public Park(string parkName, string parkLocation, string parkFacilityType, double parkFeePerVisitor, double parkAnnualBudget, int parkEmployees, int parkVisitors)
+        {
+            name = parkName;
+            location = parkLocation;
+            facilityType = parkFacilityType;
+            feePerVisitor = parkFeePerVisitor;
+            annualBudget = parkAnnualBudget;
+            numberOfEmployees = parkEmployees;
+            visitorsLastYear = parkVisitors;
+        }
     }
 }
