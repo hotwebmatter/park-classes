@@ -29,17 +29,19 @@ namespace park_classes
         {
             name = "Grand Canyon";
             location = "Arizona";
-            facilityType = "National Park";
+            type = "National Park";
+            facilities = "hiking, camping, rafting";
             feePerVisitor = 15;
             annualBudget = 21324300;
             numberOfEmployees = 382;
             visitorsLastYear = 6380000;
         }
-        public Park(string parkName, string parkLocation, string parkFacilityType, double parkFeePerVisitor, double parkAnnualBudget, int parkEmployees, int parkVisitors)
+        public Park(string parkName, string parkLocation, string parkType, string parkFacilities, double parkFeePerVisitor, double parkAnnualBudget, int parkEmployees, int parkVisitors)
         {
             name = parkName;
             location = parkLocation;
-            facilityType = parkFacilityType;
+            type = parkType;
+            facilities = parkFacilities;
             feePerVisitor = parkFeePerVisitor;
             annualBudget = parkAnnualBudget;
             numberOfEmployees = parkEmployees;
