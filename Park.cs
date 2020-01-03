@@ -66,6 +66,10 @@ namespace park_classes
         {
             return annualBudget / visitorsLastYear;
         }
+        public double RevenueFromFees()
+        {
+            return feePerVisitor * visitorsLastYear;
+        }
         public override string ToString()
         {
             string result = String.Format("***********************************************\n");
@@ -78,6 +82,7 @@ namespace park_classes
             result += String.Format("* {0, 18} {1, 24} *\n", "Employees:", numberOfEmployees);
             result += String.Format("* {0, 18} {1, 24} *\n", "Visitors:", visitorsLastYear);
             result += String.Format("* {0, 18} {1, 24:C} *\n", "Cost Per Visitor:", CostPerVisitor());
+            result += String.Format("* {0, 18} {1, 24:C} *\n", "Annual Revenue:", RevenueFromFees());
             result += String.Format("***********************************************\n");
             return result;
         }
