@@ -9,6 +9,7 @@ namespace park_classes
         {
             Park grandCanyon = new Park();
             WriteLine(grandCanyon.ParkType());
+            WriteLine(grandCanyon.ParkFacilities());
         }
     }
 }

@@ -55,5 +55,12 @@ namespace park_classes
             result += String.Format("{0, 16}{1, 16}\n", "Park Type:", type);
             return result;
         }
+        public string ParkFacilities()
+        {
+            string result = String.Format("{0, 16}{1, 16}\n", "Park Name:", name);
+            result += String.Format("{0, 16}{1, 16}\n", "Park Location:", location);
+            result += String.Format("{0, 16}{1, 16}\n", "Facilities:", facilities);
+            return result;
+        }
     }
 }
