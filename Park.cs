@@ -9,7 +9,8 @@ namespace park_classes
         // data members
         private string name,
                        location,
-                       facilityType;
+                       type,
+                       facilities;
         private double feePerVisitor,
                        annualBudget;
         private int numberOfEmployees,
@@ -17,7 +18,8 @@ namespace park_classes
         // properties
         public string Name { set; get; }
         public string Location { set; get; }
-        public string FacilityType { set; get; }
+        public string Type { set; get; }
+        public string Facilities { set; get; }
         public double FeePerVisitor { set; get; }
         public double AnnualBudget { set; get; }
         public int NumberOfEmployees { set; get; }
