@@ -50,9 +50,9 @@ namespace park_classes
         // instance methods
         public string ParkType()
         {
-            string result = String.Format("{0, 12}{1, 12}", "Park Name:", name);
-            result += String.Format("{0, 12}{1, 12}", "Park Location:", location);
-            result += String.Format("{0, 12}{1, 12}", "Facility Type:", facilityType);
+            string result = String.Format("{0, 16}{1, 16}\n", "Park Name:", name);
+            result += String.Format("{0, 16}{1, 16}\n", "Park Location:", location);
+            result += String.Format("{0, 16}{1, 16}\n", "Park Type:", type);
             return result;
         }
     }

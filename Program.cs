@@ -7,7 +7,8 @@ namespace park_classes
     {
         static void Main(string[] args)
         {
-            WriteLine("Hello World!");
+            Park grandCanyon = new Park();
+            WriteLine(grandCanyon.ParkType());
         }
     }
 }
